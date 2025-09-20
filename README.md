@@ -84,21 +84,20 @@ Arquitetura prevista:
 
 ## Tecnologias Propostas
 
-- Node.js — ambiente de execução backend
+### Backend
+- **Node.js** — ambiente de execução backend
+- **Express.js** — framework para rotas e middlewares
+- **MongoDB + Mongoose** — banco de dados NoSQL
+- **JWT** — autenticação segura
+- **Jest + Supertest** — testes automatizados
+- **Dotenv** — gerenciamento de variáveis de ambiente
+- **ViaCEP API** — consulta de endereço por CEP
+- **OpenWeather API** — consulta de clima por cidade
 
-- Express.js — framework para rotas e middlewares
-
-- MongoDB + Mongoose — banco de dados NoSQL
-
-- JWT — autenticação segura
-
-- Jest + Supertest — testes automatizados
-
-- Dotenv — gerenciamento de variáveis de ambiente
-
-- ViaCEP API — consulta de endereço por CEP
-
-- OpenWeather API — consulta de clima por cidade
+### Frontend
+- **HTML5** — estruturação das páginas
+- **CSS3** — estilização e responsividade
+- **JavaScript (ES6+)** — interatividade e integração com a API
 
 ---
 
