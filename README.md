@@ -10,6 +10,7 @@ ConectaBairro é uma proposta de plataforma digital voltada para conectar morado
 - [Problema Abordado e Justificativa](#problema-abordado-e-justificativa)
 - [Conexão com o ODS 11](#conexão-com-o-ods-11)
 - [Objetivos do Sistema](#objetivos-do-sistema)
+- [Escopo do Projeto](#escopo-do-projeto)
 - [Visão Geral da Arquitetura (com diagrama)](#visão-geral-da-arquitetura-com-diagrama)
 - [Tecnologias Propostas](#tecnologias-propostas)
 - [Cronograma para Etapa 2 (Implementação do Projeto)](#cronograma-para-etapa-2-implementação-do-projeto)
