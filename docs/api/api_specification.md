@@ -7,7 +7,7 @@
 2. [Parâmetros de Requisição](#parâmetros-de-requisição)
 3. [Formatos de resposta](#formatos-de-resposta)
 4. [Autenticação e Autorização](#autenticação-e-autorização)
-5. Exemplos de chamadas e respostas](#exemplos-de-chamadas-e-respostas)
+5. [Exemplos de chamadas e respostas](#exemplos-de-chamadas-e-respostas)
 
 ## Endpoints Previstos
 

@@ -10,6 +10,7 @@ ConectaBairro é uma proposta de plataforma digital voltada para conectar morado
 - [Problema Abordado e Justificativa](#problema-abordado-e-justificativa)
 - [Conexão com o ODS 11](#conexão-com-o-ods-11)
 - [Objetivos do Sistema](#objetivos-do-sistema)
+- [Escopo do Projeto](#escopo-do-projeto)
 - [Visão Geral da Arquitetura (com diagrama)](#visão-geral-da-arquitetura-com-diagrama)
 - [Tecnologias Propostas](#tecnologias-propostas)
 - [Cronograma para Etapa 2 (Implementação do Projeto)](#cronograma-para-etapa-2-implementação-do-projeto)
@@ -59,6 +60,14 @@ Objetivos Específicos:
 
 ---
 
+## Escopo do Projeto
+
+O escopo do ConectaBairro abrange o desenvolvimento de uma aplicação multiplataforma composta por backend (API RESTful em Node.js/Express), banco de dados NoSQL (MongoDB), integração com serviços externos (ViaCEP e OpenWeather), e frontend web/mobile responsivo.  
+O sistema permitirá o cadastro, consulta, edição e exclusão de empreendimentos locais, autenticação de usuários via JWT, listagem e busca com filtros, além da exibição de informações climáticas por cidade.  
+Estão fora do escopo, nesta etapa, funcionalidades de marketplace, pagamentos online ou gestão financeira dos empreendimentos.
+
+---
+
 ## Visão Geral da Arquitetura (com diagrama)
 
 Arquitetura prevista:
@@ -75,21 +84,20 @@ Arquitetura prevista:
 
 ## Tecnologias Propostas
 
-- Node.js — ambiente de execução backend
+### Backend
+- **Node.js** — ambiente de execução backend
+- **Express.js** — framework para rotas e middlewares
+- **MongoDB + Mongoose** — banco de dados NoSQL
+- **JWT** — autenticação segura
+- **Jest + Supertest** — testes automatizados
+- **Dotenv** — gerenciamento de variáveis de ambiente
+- **ViaCEP API** — consulta de endereço por CEP
+- **OpenWeather API** — consulta de clima por cidade
 
-- Express.js — framework para rotas e middlewares
-
-- MongoDB + Mongoose — banco de dados NoSQL
-
-- JWT — autenticação segura
-
-- Jest + Supertest — testes automatizados
-
-- Dotenv — gerenciamento de variáveis de ambiente
-
-- ViaCEP API — consulta de endereço por CEP
-
-- OpenWeather API — consulta de clima por cidade
+### Frontend
+- **HTML5** — estruturação das páginas
+- **CSS3** — estilização e responsividade
+- **JavaScript (ES6+)** — interatividade e integração com a API
 
 ---
 
